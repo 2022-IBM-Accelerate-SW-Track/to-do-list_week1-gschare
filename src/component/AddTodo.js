@@ -37,7 +37,7 @@ class AddTodo extends Component {
         // 2. The return should also include a button with the handleSubmit function from above that is passed into
         // an OnClick event.
         // 3. The value of the text field also should reflect the local state of this component.
-        <div>
+        <div data-testid="new-item-button">
           <TextField
             data-testid="new-item-input"
             label="Add New Item"
@@ -46,7 +46,6 @@ class AddTodo extends Component {
             value={this.state.content}
           />
           <Button
-            data-testid="new-item-button"
             style={{ marginLeft: "10px" }}
             onClick={this.handleSubmit}
             variant="contained"
