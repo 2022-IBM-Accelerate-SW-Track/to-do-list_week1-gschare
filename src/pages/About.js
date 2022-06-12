@@ -21,7 +21,17 @@ export default class About extends Component {
                 <div className="name_title">Gregory</div>
                 <div className="brief_description">
                     <h2>Hi there!</h2>
-                    <p>I hope you like my to-do list.</p>
+                    <p>
+                        I'm a rising junior at Columbia University studying
+                        Computer Science and Mathematics. My favorite class so
+                        far is CS Theory with Mihalis Yannakakis.
+                    </p>
+                    <p>
+                        The photo to the left is badly out of date--I have
+                        significantly more hair on my head now!
+                        That's what happens when you don't get a haircut for 2
+                        years during quarantine &#129335;
+                    </p>
                 </div>
               </div>
             </div>
